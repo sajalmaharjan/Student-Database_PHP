@@ -55,9 +55,9 @@
 			echo "<td>".$arr['address']."</td>";
 			echo "<td>".$arr['gender']."</td>";
 			echo "<td>".$arr['contactnumber']."</td>";
-			echo "<td><a target=_blank href='updatteForm.php?roll=".$arr['roll']."'>Edit</a></td>";
+			echo "<td><a  href='updatteForm.php?roll=".$arr['roll']."'>Edit</a></td>";
 			echo "<td><a href='deleteData.php?roll=".$arr['roll']."' onclick='return confirm(\"Are you sure to delete?\");'>Delete</a></td>";
-			echo"<td><a target=_blank href='view.php?roll=".$arr['roll']."'>View</a></td>";
+			echo"<td><a  href='view.php?roll=".$arr['roll']."'>View</a></td>";
 			echo "</tr>";
 
 	}
